@@ -3,11 +3,17 @@ from bs4 import BeautifulSoup
 
 url = "https://onlineradiobox.com/de/starfmhell/playlist/1?cs=de.starfmhell"
 
+
 html = requests.get(url).text
 soup = BeautifulSoup(html, "html.parser")
 
-#open data object to store infos
-data = []
+#Read in current playlist
+with open('starfmhell.txt') as playlist_file:
+  data = []
+  data = [line.rstrip() for line in playlist_file]
+
+#print(data)
+print(len(data)) #print number of Songs in playlist
 
 # Get the online playlist
 table = soup.find("table", attrs={"class": "tablelist-schedule"})
@@ -19,6 +25,7 @@ for link in table_data:
 
 #remove duplicate values (convert to dictionary, because dict cannot have duplicate values and convert back to list)
 data = list(dict.fromkeys(data))
+data = sorted(data) #sort alphabetically
 
 #print(data)
 print(len(data)) #print number of Songs in playlist
