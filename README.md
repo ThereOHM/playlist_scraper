@@ -8,7 +8,7 @@ The Python tool scrapes the songs, makes a proper data formatting, removes doubl
 
 How To Use:
 - add the URLs of your favourite webradio stations to `url_list.txt`
-- I recommend using [Onlineradiobox.com!](https://onlineradiobox.com) to get the playlists, because they have the total list of each day. Example: 
+- I recommend using [Onlineradiobox.com](https://onlineradiobox.com) to get the playlists, because they have the total list of each day. Example: 
 `https://onlineradiobox.com/de/starfmhell/playlist/1?cs=de.starfmhell
 `
 - run the main.py
