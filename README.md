@@ -2,7 +2,8 @@
 
 **Small Python Tool, to webscrape webradio playlists.**
 
-:bulb: Idea:
+
+Idea :bulb:
 
 There are plenty of good webradio stations. But I want their songs in a spotify, deezer, etc. playlist. 
 But unfortunately the playlist of the most stations is resettet every couple of hours.
