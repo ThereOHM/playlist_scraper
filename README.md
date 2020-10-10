@@ -4,9 +4,10 @@
 
 
 *Idea:*
-There are plenty of good webradio stations. But I want their songs in a spotify, deezer, etc. playlist. 
-But unfortunately the playlist of the most stations is resettet every couple of hours.
+There are plenty of good webradio stations. But I want their songs in a spotify, deezer, etc. playlist without commercials. 
+Unfortunately the playlist of the most stations is resettet every couple of hours.
 The Python tool scrapes the songs, makes a proper data formatting, removes double values and saves an unique playlist per station.
+This playlist is then ready to import to your favourite music-streaming-service.
 
 ## How To Use:
 - add the URLs of your favourite webradio stations to `url_list.txt`
