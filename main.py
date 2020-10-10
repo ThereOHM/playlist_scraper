@@ -22,7 +22,7 @@ for i in url_data:
 
   try:
     #Read in current playlist if existing
-    with open(station + '.txt') as playlist_file:
+    with open('playlists/' + station + '.txt') as playlist_file:
       data = [line.rstrip() for line in playlist_file]
   except IOError:
       print('error: File does not exist')
@@ -50,7 +50,7 @@ for i in url_data:
   print(len(data)) #print number of Songs in playlist
 
   #Save Data to playlist.txt
-  playlist_file = open(station + '.txt','w')
+  playlist_file = open('playlists/' + station + '.txt','w')
   s1='\n'.join(data) #join the list to one string and wirte this string. Saves writing the list line per line
   playlist_file.write(s1)
   playlist_file.close()
