@@ -23,9 +23,9 @@ This playlist is then ready to import to your favourite music-streaming-service.
 	- write some statistics to the `stat.txt` (for instance, how many new songs were added each day)
 
 
-Comment:
-Keep an eye on the stats ;-)
+*Comment:*
+*Keep an eye on the stats ;-)*
 
-It's really astonishing, that after about 5 Days the playlist of the most radio stations will be freezed to a few hundred songs.
-So after this 5 days, they just keep on playing the same stuff every day over and over again.
+*It's really astonishing, that after about 5 Days the playlist of the most radio stations will be freezed to a few hundred songs.*
+*So after this 5 days, they just keep on playing the same stuff every day over and over again.*
 ** Happy Groundhog Day :D**
